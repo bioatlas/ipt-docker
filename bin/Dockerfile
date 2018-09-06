@@ -2,7 +2,7 @@ FROM tomcat:9-jre8-alpine
 
 ENV \ 
 	RUNTIME_DEPS="tini" \
-	IPT_URL="http://repository.gbif.org/content/groups/gbif/org/gbif/ipt/2.3.5/ipt-2.3.5.war"
+	IPT_URL="http://repository.gbif.org/repository/releases/org/gbif/ipt/2.3.6/ipt-2.3.6.war"
 
 RUN \
     apk add --no-cache $RUNTIME_DEPS
